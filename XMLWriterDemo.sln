@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLWriterDemo", "XMLWriterDemo\XMLWriterDemo.csproj", "{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		test 1|Any CPU = test 1|Any CPU
+		test 2|Any CPU = test 2|Any CPU
+		test 3|Any CPU = test 3|Any CPU
+		test 4|Any CPU = test 4|Any CPU
+		test 5 |Any CPU = test 5 |Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 1|Any CPU.ActiveCfg = test 1|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 1|Any CPU.Build.0 = test 1|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 2|Any CPU.ActiveCfg = test 2|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 2|Any CPU.Build.0 = test 2|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 3|Any CPU.ActiveCfg = test 3|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 3|Any CPU.Build.0 = test 3|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 4|Any CPU.ActiveCfg = test 4|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 4|Any CPU.Build.0 = test 4|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 5 |Any CPU.ActiveCfg = test 5 |Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 5 |Any CPU.Build.0 = test 5 |Any CPU
+	EndGlobalSection
+EndGlobal
