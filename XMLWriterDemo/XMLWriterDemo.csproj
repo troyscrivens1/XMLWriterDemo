@@ -46,6 +46,15 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'test 5 |AnyCPU' ">
     <OutputPath>bin\test 5 \</OutputPath>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'test6|AnyCPU' ">
+    <OutputPath>bin\test6\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'test 7|AnyCPU' ">
+    <OutputPath>bin\test 7\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'test 8|AnyCPU' ">
+    <OutputPath>bin\test 8\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
       <HintPath>..\packages\Portable.BouncyCastle.1.8.5\lib\net40\BouncyCastle.Crypto.dll</HintPath>
@@ -58,6 +67,9 @@
     <Reference Include="Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e">
       <HintPath>..\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll</HintPath>
       <Private>True</Private>
+    </Reference>
+    <Reference Include="Hyland.Unity, Version=16.0.1.51, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Hyland\Unity Client\Hyland.Unity.dll</HintPath>
     </Reference>
     <Reference Include="itext.barcodes, Version=7.1.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca">
       <HintPath>..\packages\itext7.7.1.11\lib\net40\itext.barcodes.dll</HintPath>
@@ -124,15 +136,16 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DIP.cs">
+    <Compile Include="Model\CaseType\T2033.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="KeywordType.cs">
+    <Compile Include="Model\DIP.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="T2033.cs">
+    <Compile Include="Model\KeywordType.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
+    <Compile Include="OnBase\OnBase.cs" />
     <Compile Include="XMLWriterDemo.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>

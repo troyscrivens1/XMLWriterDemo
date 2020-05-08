@@ -11,6 +11,9 @@ Global
 		test 3|Any CPU = test 3|Any CPU
 		test 4|Any CPU = test 4|Any CPU
 		test 5 |Any CPU = test 5 |Any CPU
+		test6|Any CPU = test6|Any CPU
+		test 7|Any CPU = test 7|Any CPU
+		test 8|Any CPU = test 8|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -27,5 +30,11 @@ Global
 		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 4|Any CPU.Build.0 = test 4|Any CPU
 		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 5 |Any CPU.ActiveCfg = test 5 |Any CPU
 		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 5 |Any CPU.Build.0 = test 5 |Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test6|Any CPU.ActiveCfg = test6|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test6|Any CPU.Build.0 = test6|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 7|Any CPU.ActiveCfg = test 7|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 7|Any CPU.Build.0 = test 7|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 8|Any CPU.ActiveCfg = test 8|Any CPU
+		{3D821C2A-954D-4DCC-ADD6-AA1BF35ADAC0}.test 8|Any CPU.Build.0 = test 8|Any CPU
 	EndGlobalSection
 EndGlobal
